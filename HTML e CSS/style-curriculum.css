@@ -1,0 +1,155 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{ 
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fa; /* Colore di sfondo chiaro */
+    color: #333; /* Colore del testo */
+}
+
+
+ /* Stili per l'elemento della freccia */
+ .back-arrow {
+    position: fixed;
+    left: 50px; /* Distanza dal bordo sinistro */
+    top: 10%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Compensa la posizione per centrarla esattamente */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1500ff; /* Colore di sfondo del cerchio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff; /* Colore della freccia */
+    font-size: 24px; /* Dimensione della freccia */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombra del pulsante */
+    transition: background-color 0.3s, transform 0.3s; /* Animazione per hover */
+}
+
+/* Hover per la freccia */
+.back-arrow:hover {
+    background-color: #080074; /* Colore di sfondo al passaggio del mouse */
+    transform: translateY(-50%) scale(1.1); /* Ingrandisce leggermente il pulsante */
+}
+
+
+.container {
+    
+    max-width: 250px; /* Limita la larghezza massima */
+    margin: 40px auto; /* Centro orizzontale e margine verticale */
+    padding: 40px 0; /* Padding per il contenitore */
+    background-color: #fff; /* Sfondo bianco per il contenuto */
+    border-radius: 10px; /* Bordo arrotondato */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombra per dare profondità */
+}
+
+.cv-img {
+    max-width: 150px; /* Regola la larghezza dell'immagine */
+    height: 150px; /* Imposta l'altezza per un cerchio perfetto */
+    border-radius: 50%; /* Rende l'immagine circolare */
+    border: 3px solid #007bff; /* Bordo blu attorno all'immagine */
+    object-fit: cover; /* Copre completamente il cerchio */
+    transform: scale(1.1); /* Leggermente zoomato */
+    margin-top: 20px; /* Margine superiore */ 
+
+
+}
+
+.cv-h1 {
+    margin-top: 20px;
+    color: #007bff; /* Colore blu per il titolo principale */
+    font-size: 2em; /* Dimensione del titolo principale */
+    font-weight: bold; /* Grassetto per il titolo principale */
+}
+
+.cv-h2 {
+    margin-top: 20px;
+    color: #0056b3; /* Colore blu scuro per i sottotitoli */
+    border-bottom: 2px solid #e9ecef; /* Sottolineatura per i titoli */
+    padding-bottom: 5px; /* Padding sotto il titolo */
+    text-align: left; /* Allinea il titolo a sinistra */
+    font-size: 1.5em; /* Dimensione maggiore per i sottotitoli */
+    font-weight: bold; /* Grassetto per i sottotitoli */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centra le colonne */
+    margin-top: 120px;
+}
+
+.col-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Sfondo grigio chiaro per le colonne */
+    border-radius: 8px; /* Bordo arrotondato per le colonne */
+    margin: 0 10px; /* Margine laterale per le colonne */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+.divider {
+    width: 1px;
+    background-color: #007bff; /* Colore blu per il divider */
+    margin: 0 20px; /* Margine orizzontale per distanziare le colonne */
+}
+
+ul {
+    list-style: none; /* Rimuove i punti dall'elenco */
+    padding: 0; /* Rimuove il padding */
+}
+
+li {
+    background: #e9ecef; /* Sfondo grigio per gli elementi della lista */
+    margin: 5px 0; /* Margine verticale tra gli elementi */
+    padding: 10px; /* Padding interno per gli elementi */
+    border-radius: 5px; /* Bordo arrotondato per gli elementi della lista */
+}
+
+.job-title {
+    font-size: 1.3em; /* Dimensione per il titolo di lavoro */
+    font-weight: bold; /* Grassetto per il titolo di lavoro */
+    color: #333; /* Colore del titolo di lavoro */
+    margin-top: 10px; /* Margine sopra il titolo di lavoro */
+}
+
+.company {
+    font-size: 1.2em; /* Dimensione per il nome dell'azienda */
+    color: #007bff; /* Colore blu per il nome dell'azienda */
+}
+
+.year {
+    font-size: 1em; /* Dimensione per l'anno */
+    color: #555; /* Colore grigio scuro per l'anno */
+    margin-bottom: 10px; /* Margine sotto l'anno */
+}
+
+.job-description {
+    margin-top: 10px; /* Margine sopra la descrizione del lavoro */
+    line-height: 2; /* Aumenta lo spazio tra le righe della descrizione */
+    font-size: 1em; /* Dimensione del testo per la descrizione del lavoro */
+}
+
+/* Media query per la reattività */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Disposizione verticale sui dispositivi piccoli */
+    }
+
+    .divider {
+        display: none; /* Nasconde il divider sui dispositivi piccoli */
+    }
+}

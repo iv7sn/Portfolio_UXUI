@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff 25%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 175px;
+    position: fixed; /* Fissa la navbar in alto */
+    top: 0; /* Imposta la posizione superiore */
+    left: 0; /* Imposta la posizione a sinistra */
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.01);
+    z-index: 100;
+}
+
+.logoivan {
+    width: 300px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+.logo h6 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: blue; /* Cambia il colore dei link al passaggio del mouse */
+}
+
+.header {
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    padding: 35px 100px;
+    text-align: center; /* Centra il contenuto dell'intestazione */
+}
+
+img {
+    width: 80rem;
+    width: 100%;
+}
+
+.image-hover {
+    padding-top: 40px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-hover:hover {
+    filter: brightness(0.75);
+    transform: scale(1.05);
+}
+
+.headercontent {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 25px;
+    text-align: center; /* Centra il testo */
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75;
+    color: rgb(3, 3, 3);
+    zoom: 0.65;
+    background: linear-gradient(to right, #eeeeee, #ffffff);
+}
+
+.sfondo {
+    width: 100%;
+    height: 100%; /* Altezza definita per l'esempio */
+    background-image: url(vertical-shot-beautiful-burning-flames-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.heroimg {
+    width: 1000px;
+}
+
+.bigp {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center; /* Centra il titolo */
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+p.saluti {
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #797979;
+    margin-top: 2rem;
+    text-align: center; /* Centra il saluto */
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    line-height: 27px;
+    padding: 36px 92px;
+    border-radius: 12px;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    background: linear-gradient(to left, #1262cb, #0652DD, #123dcb);
+    box-shadow: 5px 5px 15px 5px rgba(232, 207, 207, 0);
+    border: 2px solid rgb(28, 110, 164);
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1262cb, #0652DD, #0e32a9);
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 4rem;
+    text-align: center; /* Centra il titolo H3 */
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #0011ae, #001aff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: left; /* Centra il titolo H4 */
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+p.descrizione {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 3rem;
+    font-weight: 750;
+}
+
+#header {
+    padding: 3rem 0;
+    text-align: center; /* Centra il contenuto dell'intestazione */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+img {
+    max-width: 95%;
+    border-radius: 10px;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blue {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #011baf;
+}
+
+.p-contact {
+    font-size: 24px;
+}
+
+
+.image-hover2 { 
+    
+    padding-top: 40px;
+    display: block; 
+    width: 80%;
+    margin: 0 auto; 
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.image-hover2:hover {
+    filter: brightness(0.75);
+    transform: scale(1.05);
+}
+
+/* Media Queries per Responsività fino a 768px */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Imposta la navbar in verticale */
+        height: auto; /* Permette che l'altezza si adatti al contenuto */
+        padding: 10px; /* Padding ridotto */
+    }
+
+    .logoivan {
+        width: 30%; /* Riduce la dimensione del logo */
+        margin: 0 auto; /* Centra il logo */
+        padding:20px 20px
+    }
+
+
+    .header {
+        padding: 20px; /* Padding ridotto */
+        text-align: center; /* Centra il contenuto dell'intestazione */
+    }
+
+    h1 {
+        font-size: 3.5rem; /* Riduce la dimensione dell'h1 */
+        text-align: center; /* Centra il titolo */
+    }
+
+    h3 {
+        font-size: 2.5rem; /* Riduce la dimensione dell'h1 */
+        text-align: center; /* Centra il titolo */
+    }
+
+
+    .bigp {
+        font-size: 2rem; /* Riduce la dimensione del paragrafo */
+    }
+
+    .btn {
+        padding: 35px 95px; /* Dimensioni del bottone mantenute */
+        font-size: 36px; /* Dimensione del font del bottone mantenuta */
+    }
+
+    .gallery {
+        display: flex; /* Usa flexbox per la galleria */
+        flex-direction: column; /* Disposizione verticale */
+        align-items: center; /* Centro gli elementi */
+        gap: 80px; /* Spaziatura tra i lavori */
+    }
+
+    .gallery div {
+        width: 100%; /* Larghezza per gli elementi della galleria */
+        transition: transform 0.3s ease; /* Transizione per effetti al passaggio del mouse */
+        align-items: center; /* Centro gli elementi */
+    }
+
+    .gallery div:hover {
+        transform: scale(1.05); /* Effetto di ingrandimento al passaggio del mouse */
+    }
+}
+
+.esempio {
+    margin-left: 57px; /* Margine sinistro per esempio */
+}
+
+
+
+/* Media Queries per Responsività fino a 480px */
+@media screen and (max-width: 480px) {
+    
+     .navbar {
+        flex-direction: column; /* Imposta la navbar in verticale */
+        height: auto; /* Permette che l'altezza si adatti al contenuto */
+        padding: 10px; /* Padding ridotto */
+    }
+
+    .logoivan {
+        width: 30%; /* Riduce la dimensione del logo */
+        margin: 0 auto; /* Centra il logo */
+        padding:20px 20px
+    }
+
+
+    h1 {
+        font-size: 3.5rem; /* Riduce la dimensione dell'h1 per mobile */
+        text-align: center; /* Centra il titolo */
+    }
+
+    h3 {
+        font-size: 2rem; /* Riduce la dimensione dell'H3 per mobile */
+        text-align: center; /* Centra l'H3 */
+    }
+
+    .contact {
+        padding-bottom: 50px; /* Padding inferiore per contatti */
+    }
+
+    .blue {
+        font-size: 1.7rem; /* Riduce la dimensione del testo blu */
+    }
+
+    .bigp {
+        font-size: 1.7rem; /* Riduce la dimensione del paragrafo */
+    }
+
+    .btn {
+        padding: 32px 75px; /* Dimensioni del bottone mantenute */
+        font-size: 32px; /* Dimensione del font del bottone mantenuta */
+        margin-top: 75px; /* Margine superiore per il bottone */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Imposta la galleria a una sola colonna */
+        gap: 75px; /* Spaziatura tra le immagini */
+    }
+
+    .gallery div {
+        margin-bottom: 20px; /* Margine inferiore per ogni lavoro */
+    }
+
+
+    .logoivan {
+        width: 50%; /* Mantiene la dimensione del logo */
+    }
+
+    .logo {
+        margin-top: 50px; /* Margine superiore per il logo */
+    }
+
+    .esempio {
+        margin-left: 44px; /* Margine sinistro per esempio */
+    }
+}
