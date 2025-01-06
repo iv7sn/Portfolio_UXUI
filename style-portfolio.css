@@ -1,0 +1,384 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff 25%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 175px;
+    position: fixed;  
+    top: 0;  
+    left: 0; 
+    width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.01);
+    z-index: 100;
+}
+
+.logoivan {
+    width: 300px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+.logo h6 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: blue;  
+}
+
+.header {
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    padding: 35px 100px;
+    text-align: center; 
+}
+
+img {
+    width: 80rem;
+    width: 100%;
+}
+
+.image-hover {
+    padding-top: 40px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-hover:hover {
+    filter: brightness(0.75);
+    transform: scale(1.05);
+}
+
+.headercontent {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 25px;
+    text-align: center;  
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75;
+    color: rgb(3, 3, 3);
+    zoom: 0.65;
+    background: linear-gradient(to right, #e6eaff, #ffffff);
+}
+
+.sfondo {
+    width: 100%;
+    height: 100%;  
+    background-image: url(vertical-shot-beautiful-burning-flames-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.heroimg {
+    width: 1000px;
+}
+
+.bigp {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;  
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+p.saluti {
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #797979;
+    margin-top: 2rem;
+    text-align: center;  
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    line-height: 27px;
+    padding: 36px 92px;
+    border-radius: 12px;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    background: linear-gradient(to left, #1262cb, #0652DD, #123dcb);
+    box-shadow: 5px 5px 15px 5px rgba(232, 207, 207, 0);
+    border: 2px solid rgb(28, 110, 164);
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #1262cb, #0652DD, #0e32a9);
+    filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 4rem;
+    text-align: center;  
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #0011ae, #001aff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: left;  
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+p.descrizione {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 3rem;
+    font-weight: 750;
+}
+
+#header {
+    padding: 3rem 0;
+    text-align: center;  
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+img {
+    max-width: 95%;
+    border-radius: 10px;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blue {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #011baf;
+}
+
+.p-contact {
+    font-size: 24px;
+}
+
+
+.image-hover2 { 
+    
+    padding-top: 40px;
+    display: block; 
+    width: 80%;
+    margin: 0 auto; 
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.image-hover2:hover {
+    filter: brightness(0.75);
+    transform: scale(1.05);
+}
+
+ 
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;  
+        height: auto;  
+        padding: 10px;  
+    }
+
+    .logoivan {
+        width: 30%;  
+        margin: 0 auto;  
+        padding:20px 20px
+    }
+
+
+    .header {
+        padding: 20px;  
+        text-align: center;  
+    }
+
+    h1 {
+        font-size: 3.5rem; 
+        text-align: center;  
+    }
+
+    h3 {
+        font-size: 2.5rem;  
+        text-align: center;  
+    }
+
+
+    .bigp {
+        font-size: 2rem;  
+    }
+
+    .btn {
+        padding: 35px 95px;  
+        font-size: 36px;  
+    }
+
+    .gallery {
+        display: flex;  
+        flex-direction: column; 
+        align-items: center;  
+        gap: 80px;  
+    }
+
+    .gallery div {
+        width: 100%;  
+        transition: transform 0.3s ease;  
+        align-items: center;  
+    }
+
+    .gallery div:hover {
+        transform: scale(1.05);  
+    }
+}
+
+.esempio {
+    margin-left: 57px;  
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+     .navbar {
+        flex-direction: column;  
+        height: auto;  
+        padding: 10px;  
+    }
+
+    .logoivan {
+        width: 30%;  
+        margin: 0 auto; 
+        padding:20px 20px
+    }
+
+
+    h1 {
+        font-size: 3.5rem;  
+        text-align: center;  
+    }
+
+    h3 {
+        font-size: 2rem;  
+        text-align: center;  
+    }
+
+    .contact {
+        padding-bottom: 50px; 
+    }
+
+    .blue {
+        font-size: 1.7rem;  
+    }
+
+    .bigp {
+        font-size: 1.7rem;  
+    }
+
+    .btn {
+        padding: 32px 75px;  
+        font-size: 32px;  
+        margin-top: 75px;  
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; 
+        gap: 75px;  
+    }
+
+    .gallery div {
+        margin-bottom: 20px;  
+    }
+
+
+    .logoivan {
+        width: 50%; 
+    }
+
+    .logo {
+        margin-top: 50px;  
+    }
+
+    .esempio {
+        margin-left: 44px;  
+    }
+}
