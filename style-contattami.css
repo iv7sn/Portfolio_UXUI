@@ -47,7 +47,7 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Sezione Contact Form */
+
 .contact-form-section {
     padding: 80px 0;
     background-color: #ffffff;
@@ -102,7 +102,7 @@ body {
     outline: none;
 }
 
-/* Bottone di invio */
+
 .contact-form .btn {
     display: inline-block;
     background-color: #0652DD;
